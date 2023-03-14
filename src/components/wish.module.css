@@ -1,0 +1,52 @@
+.wish {
+  height: calc(100% - 3rem);
+
+  margin: 0.5rem;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 0.5rem;
+  color: #222222;
+
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.5rem;
+
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.telegram {
+  margin-bottom: 1.5rem;
+
+  text-decoration: none;
+  font-style: italic;
+
+  color: #222222;
+}
+
+.wishText {
+  font-size: 0.75rem;
+}
+
+.video {
+  width: 16rem;
+  border-radius: 10px;
+}
